@@ -8,9 +8,9 @@ The Video of the application is visible at the link: https://youtu.be/z_hctSw-tU
 
 ## Repositiory content__
 
-- datasets: contains all the datasets needed for the particle filter execution. The dataset are four and they are collected using a car model 1:10 scale. Each datasets contains something different and they are all usefull for testing all the paramether of the filter
+[comment]: # - datasets: contains all the datasets needed for the particle filter execution. The dataset are four and they are collected using a car model 1:10 scale. Each datasets contains something different and they are all usefull for testing all the paramether of the filter
 
-- results: folder with results
+[comment]: # - results: folder with results
     - Images
     - .csv/.txt files
 
@@ -21,7 +21,7 @@ The Video of the application is visible at the link: https://youtu.be/z_hctSw-tU
     - particle.py : object used in particle filter
     - utils.py : class with some drow functions.
 
-- venv: virtual environment folder
+[comment]: # - venv: virtual environment folder
 
 - requirements.txt: filed with packages that should be installed for the functionality of the code
 
