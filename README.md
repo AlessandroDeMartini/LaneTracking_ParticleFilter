@@ -1,12 +1,17 @@
-# EL2320 Applied Estimation, Project
+# Lane Detaction and Tracking using a Particle Filter implementation
 
 This repositories contains the project developed by Alessandro De Martini and Simone Morettini.
-
 The code has been developed during the accademic year 2020-2021 under the supervision of Prof. Jhon Folkenson.
-
 The Video of the application is visible at the link: https://youtu.be/z_hctSw-tUc
 
-## Repositiory content__
+## Short description
+
+This repository contains a lane tracking algorithm developed using a Particle Filter. The peculiarity of the approach used is that the Particle filter is used both for lane detection and lane tracking. The input of the particle filter is a probability distribution matrix created at the image processing stage. Since the algorithm implemented is simple and uses really few energy it's optimal for being used in small embedded devices. 
+
+Detailed information of the process, the choices made and the results are available on this two papers of the creators: [De Martini's report](https://github.com/AlessandroDeMartini/LaneTracking_ParticleFilter/blob/master/Paper_DeMartini.pdf ) and [Morettini's report](https://github.com/AlessandroDeMartini/LaneTracking_ParticleFilter/blob/master/Paper_Morettini.pdf).
+ 
+
+## Repositiory content
 
 - src
     - ResultAcquisition: folder with .py files used for results acquisitions
